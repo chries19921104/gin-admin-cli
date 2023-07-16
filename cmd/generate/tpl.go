@@ -2,9 +2,12 @@ package generate
 
 // TplItem 模板项
 type TplItem struct {
-	StructName string         `yaml:"name"`    // 结构体名称
-	Comment    string         `yaml:"comment"` // 注释
-	Fields     []TplFieldItem `yaml:"fields"`  // 字段项
+	StructName     string         `yaml:"name"`            // 结构体名称
+	Comment        string         `yaml:"comment"`         // 注释
+	Fields         []TplFieldItem `yaml:"fields"`          // 字段项
+	Condition      bool           `yaml:"condition"`       // 查询条件
+	ConditionArray bool           `yaml:"condition_array"` // 组合查询
+	ConditionLike  bool           `yaml:"condition_like"`  // 模糊查询
 }
 
 func (t TplItem) toSchemaFields() []schemaField {
