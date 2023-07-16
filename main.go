@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/gin-admin/gin-admin-cli/v5/cmd"
+	"github.com/chries19921104/gin-admin-cli/v1/cmd"
 	"github.com/urfave/cli"
 )
 

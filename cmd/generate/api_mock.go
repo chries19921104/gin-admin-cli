@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gin-admin/gin-admin-cli/v5/util"
+	"github.com/chries19921104/gin-admin-cli/v1/util"
 )
 
 func getAPIMockFileName(dir, name string) string {

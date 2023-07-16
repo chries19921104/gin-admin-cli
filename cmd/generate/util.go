@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/gin-admin/gin-admin-cli/v5/util"
+	"github.com/chries19921104/gin-admin-cli/v1/util"
 	"io"
 	"os"
 	"os/exec"
